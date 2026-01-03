@@ -17,8 +17,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  
   min-width: 320px;
   min-height: 100vh;
+}
+/* Reset universal de box-sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 

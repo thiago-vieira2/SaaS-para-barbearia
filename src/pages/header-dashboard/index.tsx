@@ -6,7 +6,7 @@ import { RiScissorsFill } from "react-icons/ri";
 export function HeaderDashboard() {
     return (
         <header className="fixed top-0 left-0 w-full  px-6 py-4 z-50">
-            <div className="flex items-center justify-around gap-100    ">
+            <div className="flex items-center justify-around pt-1 gap-180    ">
 
 
                 <div className="flex gap-2">
