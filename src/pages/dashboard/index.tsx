@@ -1,7 +1,9 @@
+import { Card } from "../../components/cards";
+
 export function DashBoard() { 
     return (
-        <h1>
-            ola mundo
-        </h1>
+        <div className="">
+                <Card/> 
+        </div>
     );
 }
