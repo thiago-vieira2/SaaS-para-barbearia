@@ -14,14 +14,18 @@ export function DashBoard() {
     
 
     return (
-        <div className="">
-                <div className=" w-screen h-[70vh] flex justify-center gap-10  ">
+        <div className="pt-50 w-screen h-screen flex flex-col items-center justify-center gap-10">
+                <div className="flex gap-10">
                     {Cards.map((Ativo, index ) =>(
                         <Card key={index} {...Ativo}/>
                     ))}    
                 </div>
 
-                <Grafico/>
+                <div className="flex">
+                    <Grafico/>
+                </div>
+
+                
 
             
         </div>

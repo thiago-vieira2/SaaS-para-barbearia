@@ -11,7 +11,7 @@ interface CardProps {
 
 export function Card ({Titulo, Subtitulo, Descricao, img} : CardProps) {
     return (
-        <div className='pl-3.5 w-75 h-40 rounded-xl bg-linear-to-t from-zinc-900 to-zinc-800 border border-zinc-800 transition-all transform hover:scale-105 duration-300 hover:shadow-[0_0_12px_4px_rgba(251,191,36,0.6)] '>
+        <div className='pl-3.5 w-75 h-40 rounded-xl bg-linear-to-t from-zinc-900 to-zinc-800 border border-zinc-800 transition-all transform  duration-300 hover:shadow-[0_0_12px_4px_rgba(251,191,36,0.6)] '>
             <div className="w-75 h-40 flex gap-20  items-center ">
 
 
