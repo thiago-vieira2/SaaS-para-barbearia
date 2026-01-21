@@ -1,5 +1,7 @@
-import { Card } from "../../components/cards";
+
 import { Grafico } from "../../components/grafico";
+import { TopServices } from "../../components/top-services";
+import { Card } from "../../components/UI/cards";
 
 
 const Cards = [
@@ -21,8 +23,13 @@ export function DashBoard() {
                     ))}    
                 </div>
 
-                <div className="flex">
+                <div className="flex gap-20 " >
                     <Grafico/>
+                    <TopServices/>
+                </div>
+
+                <div className="">
+                    
                 </div>
 
                 
